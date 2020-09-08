@@ -1,0 +1,148 @@
+.place {
+  display: grid;
+  grid-template-columns: 46% 54%;
+  grid-template-rows: 2;
+  margin: 92px 148px 0 148px;
+}
+
+
+.place__title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.place__website {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.place__image-options {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.place__paragraph {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 48px 0 0 40px;
+}
+
+.place__image-options {
+  max-width: 100%;
+  height: auto;
+}
+
+.place__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  margin: 0;
+}
+
+.place__image {
+	flex: 46%;
+}
+
+.place__url-heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 0 0 12px 0;
+}
+
+.place__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration-line: underline;
+  color: #fff;
+  transition-duration: .5s;
+}
+
+.place__link:hover {
+  opacity: 70%;
+  transition-duration: 1s;
+}
+
+.place__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  padding-bottom: 24px;
+  margin: 0;
+}
+
+.place__text:last-child {
+  padding-bottom: 0;
+}
+
+.place__website {
+  list-style-type: none;
+  padding: 0;
+  align-self: end;
+  margin: 0 0 0 40px;
+}
+
+.place__image-options {
+  max-width: 100%;
+  height: auto;
+  margin-top: 48px;
+}
+
+@media (max-width: 1130px) {
+	.place__title {
+		font-size: 57px;
+    line-height: 108%x;
+	}
+}
+
+@media (max-width: 1024px) {
+	.place {
+		margin: 80px 48px 0 48px;
+	}
+}
+
+@media (max-width: 768px) {
+	.place {
+		margin: 70px 24px 0 24px;
+  }
+
+  .place__title {
+		font-size: 42px;
+    line-height: 106%x;
+	}
+}
+
+@media (max-width: 542px) {
+	.place {
+    margin: 48px 3px 0 3px;
+  }
+
+  .place__website {
+    display: none;
+  }
+  .place__title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .place__image-options {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-top: 32px;
+  }
+
+  .place__paragraph {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 32px 16px 0 16px;
+  }
+}
