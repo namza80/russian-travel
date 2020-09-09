@@ -1,0 +1,12 @@
+.place__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  padding-bottom: 24px;
+  margin: 0;
+}
+
+.place__text:last-child {
+  padding-bottom: 0;
+}

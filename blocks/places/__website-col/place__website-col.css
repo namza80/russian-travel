@@ -1,0 +1,14 @@
+.place__website-col {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  list-style-type: none;
+  padding: 0;
+  align-self: end;
+  margin: 0 0 0 40px;
+}
+
+@media (max-width: 542px) {
+  .place__website-col {
+    display: none;
+  }
+}

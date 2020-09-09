@@ -1,0 +1,13 @@
+.place__paragraph-col {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 48px 0 0 40px;
+}
+
+@media (max-width: 542px) {
+  .place__paragraph-col {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 32px 16px 0 16px;
+  }
+}

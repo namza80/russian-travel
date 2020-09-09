@@ -2,48 +2,6 @@
   margin: 92px 48px 0 48px;
 }
 
-.cover__background {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.cover__overlay {
-  width: 100%;
-  transition-duration: .5s;
-}
-
-.cover__overlay:hover {
-  background: #2A2C2F;
-  opacity: 0.3;
-  transition-duration: 1s;
-}
-
-.cover__description {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-style: normal;
-  color: #FFFFFF;
-}
-
-.cover__title {
-  width: 560px;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 106%;
-  margin: 0 auto;
-}
-
-.cover__subtitle {
-  width: 360px;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 122%;
-  margin: 32px auto 0 auto;
-}
-
 @media (max-width: 1024px) {
 	.cover {
     margin: 92px auto 0 auto;
@@ -60,18 +18,4 @@
   .cover {
     margin: 64px auto 0 auto;
   }
-
-	.cover__title {
-    width: 288px;
-    font-size: 32px;
-    line-height: 109%;
-    margin: 0 auto;
-  }
-
-  .cover__subtitle {
-    width: 288px;
-    font-size: 14px;
-    line-height: 114%;
-    margin: 16px auto 0 auto;
-	}
 }
