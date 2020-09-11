@@ -10,3 +10,10 @@
 .place__text:last-child {
   padding-bottom: 0;
 }
+
+@media (max-width: 542px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
