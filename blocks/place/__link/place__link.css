@@ -1,5 +1,4 @@
 .place__link {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -10,6 +9,5 @@
 }
 
 .place__link:hover {
-  opacity: 70%;
-  transition-duration: 1s;
+  opacity: 0.8;
 }

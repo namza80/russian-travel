@@ -1,7 +1,6 @@
 .place__website-col {
   grid-column: 2/3;
   grid-row: 1/2;
-  list-style-type: none;
   padding: 0;
   align-self: end;
   margin: 0 0 0 40px;

@@ -6,19 +6,20 @@
   font-size: 72px;
   line-height: 106%;
   margin: 0;
+  align-self: end;
 }
 
 @media (max-width: 1130px) {
 	.place__title {
 		font-size: 57px;
-    line-height: 108%x;
+    line-height: 108%;
 	}
 }
 
 @media (max-width: 768px) {
   .place__title {
 		font-size: 42px;
-    line-height: 106%x;
+    line-height: 106%;
 	}
 }
 

@@ -6,6 +6,5 @@
 }
 
 .footer__link:hover {
-  opacity: 70%;
-  transition-duration: 1s;
+  opacity: 0.8;
 }

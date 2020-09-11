@@ -7,14 +7,12 @@
 }
 
 .footer__copyright:hover {
-  opacity: 70%;
-  transition-duration: 1s;
+  opacity: 0.8;
 }
 
 @media (max-width: 730px) {
   .footer__copyright {
     margin-top: 16px;
-    font-size: 14px;
     line-height: 100%;
   }
 }
