@@ -4,13 +4,25 @@
   margin: 92px 148px 0 148px;
 }
 
+@media (max-width: 1130px) {
+	.place {
+    grid-template-columns: 52% auto;
+	}
+}
+
 @media (max-width: 1024px) {
 	.place {
 		margin: 80px 48px 0 48px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
+	.place {
+    grid-template-columns: 55% auto;
+	}
+}
+
+@media (max-width: 790px) {
 	.place {
 		margin: 70px 24px 0 24px;
   }
